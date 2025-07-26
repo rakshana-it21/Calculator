@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  background-color: #f0f0f0;
+}
+.calci {
+  width: 300px;
+  background-color: #222;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+.display
+{
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.num {
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);  
+  gap: 10px;                             
+  padding: 20px;
+  background-color: #4b4949;
+}
+.grid-item {
+  background-color: #fff;
+  border-radius: 10px; 
+  padding: 10px;
+}
